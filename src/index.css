@@ -1,0 +1,126 @@
+/* Общие стили */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Контейнер приложения */
+.app-container {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(204, 204, 204, 0.3);
+}
+
+.app-title {
+  text-align: center;
+  padding-bottom: 20px;
+  opacity: .6;
+}
+
+.todo-list-container {
+  padding: 10px;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 3px 3px 3px rgba(204, 204, 204, 0.5);
+  z-index: 5;
+}
+
+.todo-list-container_next {
+  padding-top: 7px;
+  margin: 0 5px 0;
+  border-radius: 0 0 3px 3px;
+  background-color: white;
+  box-shadow: 0 3px 3px 3px rgba(204, 204, 204, 0.5);
+  z-index: 2;
+}
+
+.todo-list-container_last {
+  padding-top: 7px;
+  margin: 0 10px 0;
+  border-radius: 0 0 3px 3px;
+  background-color: white;
+  box-shadow: 0 3px 3px 3px rgba(204, 204, 204, 0.5);
+  z-index: 1;
+}
+
+/* Поле ввода задачи */
+.task-input {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+label {
+  font-style: italic;
+}
+
+.task-input-field {
+  flex-grow: 1;
+}
+
+.task-input-button {
+  min-width: 100px;
+}
+
+/* Счетчик задач */
+.task-counter {
+  color: #666;
+  margin-bottom: 16px;
+}
+
+/* Список задач */
+.task-list-wrapper {
+  flex-grow: 1;
+}
+
+.task-list-empty {
+  color: #666;
+  text-align: center;
+}
+
+.task-item {
+  padding: 0;
+}
+
+.task-checkbox {
+  margin-right: 8px;
+}
+
+.task-text {
+  margin: 0;
+}
+
+.task-text.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Футер */
+.app-footer {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #ccc;
+}
+
+.app-tab {
+  min-width: 80px;
+}
+
+.clear-button {
+  width: 100%;
+  color: black;
+}
