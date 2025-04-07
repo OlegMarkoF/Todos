@@ -1,7 +1,7 @@
 {
   "name": "todo-app",
   "version": "0.1.0",
-  "homepage": "https://OlegMarkoF.github.iom/Todos",
+  "homepage": "https://OlegMarkoF.github.io/Todos",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
